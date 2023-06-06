@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <form action="https://formsubmit.co/arpitburley00@email.com" method="POST">
+        <input type="hidden" name="_next" value="https://127.0.0.1:5500/idex.html/thanku.html">
+        <input type="hidden" name="_captcha" value="false">
+        <div class="container">
+            <div class="main">
+                <h1>Get in touch</h1>
+
+                <div class= "box1">
+                    <div id="title">
+                        <p class="title">Name :</p>
+                    </div>
+                    <input type="text" name="fname" placeholder="First name" required>
+                    <input type="text" name="lname" placeholder="Last name" required>
+                </div>
+        
+                <div class="box2">
+                    <div id="title">
+                        <p class="title"> Moblie No. :</p>
+                    </div>
+                    <input type="tel" id="phone" name="phone" placeholder="0000000000" pattern="[0-9]{10}">
+                </div>
+
+                <div class="box3">
+                    <div id="title">
+                        <p class="title"> E-mail :</p>
+                    </div>
+                    <input type="email" name="email" id="email" placeholder="Eg.example@gmail.com" required>
+                </div>
+            
+                <div class="box4">
+                    <div id="title">
+                        <p class="title">Message :</p>
+                    </div>
+                    <textarea name="message" id="message" cols="50" rows="5"  placeholder="Write us a message" required></textarea>
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+
+            </div>
+
+            <div class="large">
+                <h1>Contact us</h1>
+                <div class="con1 box">
+                    <p class="l-title">Address:</p>
+                    <p>Hashu Adwani Memorial Complex, Collector's Colony, 
+                        Chembur, Mumbai, Maharashtra 400074
+                    </p>
+                </div>
+
+                <div class="con2 box">
+                    <p class="l-title">Phone:</p>
+                    <p><a href="tel://1234567920">+022 6153 2500</a></p>
+                </div>
+
+                <div class="con3 box">
+                    <p class="l-title">E-mail:</p>
+                    <p> <a href="/cdn-cgi/l/email-protection#5d34333b321d2432282f2e342938733e3230">Example@gmail.com</a></p>
+                </div>
+
+                <div class="con4 box">
+                    <p class="l-title">Website:</p>
+                    <p> <a href="https://vesit.ves.ac.in/">https://vesit.ves.ac.in</a></p>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
